@@ -1,4 +1,4 @@
-export default function list() {
+export default function ToDoListItem() {
     return (
         <li>To Do Item</li>
     )

@@ -1,10 +1,10 @@
-import List from './list'
+import ToDoListItem from './ToDoListItem'
 
 export default function ToDoList() {
     return (
         <ul>
-            <List />
-            <List />
+            <ToDoListItem />
+            <ToDoListItem />
         </ul>
     );
 }
