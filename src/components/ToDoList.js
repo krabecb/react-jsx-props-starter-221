@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-import List from './list'
-=======
 import './ToDoList.css'
 import ToDoListItem from './ToDoListItem'
->>>>>>> Stashed changes
 
 // ToDoList.jsx
 // 2 ways: 
@@ -20,17 +16,10 @@ export default function ToDoList({header, todos}) {
     // const misc = ["This is our string", 7, false, <p>This is a react element!</p>]
     const toDoListItems = todos.map((t, idx) => <ToDoListItem key={idx} todo={t} index={idx}/>)
     return (
-<<<<<<< Updated upstream
-        <ul>
-            <List />
-            <List />
-        </ul>
-=======
       <ul className="ToDoList">
         <h2>{header}</h2>
         {toDoListItems}
       </ul>
->>>>>>> Stashed changes
     );
   }
   
